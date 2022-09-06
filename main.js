@@ -12,27 +12,7 @@ let siguienteIndice = function(){
 let nextIndex;
 
 function respuesta() {
-    // stringHtml = `              <div>
-    // <input type="radio" id="propiedad7" name="drone" value="propiedad7">
-    // <label for="propiedad7">propiedad7</label>
-    // </div>`;
-    // stringHtml =  textArea.value;
-
-    // stringHtml =  textArea.value;
-    // stringHtml.indexOf('<', 0)
-    // stringHtml.slice(stringHtml.indexOf('<', 0) , stringHtml.length - stringHtml.indexOf('<', 0))
-
-    // arrTags.push(indexadorDeCaracteres(0 , "<" , ">"));
-    // nextIndex = siguienteIndice();
-    // console.log(nextIndex)    
-    // while (nextIndex < stringHtml.length) {
-    //     arrTags.push(indexadorDeCaracteres( nextIndex , "<" , ">" )  )
-    //     nextIndex = siguienteIndice();
-    //     console.log(nextIndex);
-    // }
     
-}
-
 stringHtml =  textArea.value;
 stringHtml.indexOf('<', 0)
 // stringHtml = stringHtml.slice(stringHtml.indexOf('<', 0) , stringHtml.length - stringHtml.indexOf('<', 0))
@@ -45,6 +25,21 @@ while(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
     nextIndex = siguienteIndice();
     // console.log(nextIndex);
 }
+    
+}
+
+// stringHtml =  textArea.value;
+// stringHtml.indexOf('<', 0)
+// // stringHtml = stringHtml.slice(stringHtml.indexOf('<', 0) , stringHtml.length - stringHtml.indexOf('<', 0))
+
+// arrTags.push(indexadorDeCaracteres(0 , "<" , ">"));
+// nextIndex = siguienteIndice();
+
+// while(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
+//     arrTags.push(indexadorDeCaracteres( nextIndex , "<" , ">" )  )    
+//     nextIndex = siguienteIndice();
+//     // console.log(nextIndex);
+// }
 
 // nextIndex = siguienteIndice();
 // if(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
