@@ -6,35 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Browser Like Ide</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./main.js"></script>
+    <script defer src="./main.js"></script>
 </head>
 <body>
-    <main class="caja">
-        <section class="contenedor">
-            <code class="editor">
-                <div class="fork">
+    <main class="main">
+        <h1>Browser Like Ide</h1>
+        <section class="main-wrap main-wrap_exa">
+            <code class="main-editor editor">
+                <div class="space">
                     <span class="key"><</span>
                     <span class="tag">div</span>
                     <span class="key">></span>
-                    <br> <!--Inicio del input-->
-                    <span class="key"><</span>
+                    <br> <!--Inicio del párrafo-->
+                    <span class="key ident1"><</span>
                     <span class="tag">p</span>
                     <span class="attr">id="</span>
                     <span class="value">ejemplo</span>
                     <span class="attr">" </span>
                     <span class="key">></span>
                     <br>
-                    <span class="string">Éste es un párrafo de prueba sin JS</span>
+                    <span class="string ident2">Este es un párrafo de prueba sin JS</span>
                     <br>
-                    <span class="key"><</span>
+                    <span class="key ident1"><</span>
                     <span class="tag">/p</span>
                     <span class="key">></span>
-                    <br> <!--Fin del input-->
+                    <br> <!--Fin del párrafo-->
                     <span class="key"><</span>
                     <span class="tag">/div</span>
                     <span class="key">></span>
                 </div>
             </code>
+        </section>
+        <section class="main-wrap">
+            <textarea class="editor area" name="recolector" id="recolector" cols="30" rows="10" placeholder="Inserta tu código acá"></textarea>
+        </section>
+        <section class="button">
+            <button id="btnFormat" class="format">Formatear</button>
         </section>
     </main>
 </body>
