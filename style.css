@@ -23,7 +23,7 @@ h1{
 .main-wrap{
     background-color: #38444D;
     width: 70rem;
-    height: 35rem;
+    height: 30rem;
     border-radius: 1.5rem;
     display: grid;
     align-content: center;
@@ -40,7 +40,7 @@ h1{
 .editor{
     background-color: #15202B;
     width: 65rem;
-    height: 30rem;
+    height: 25rem;
     border-radius: 0.8rem;
     display: grid;
     justify-self: center;
