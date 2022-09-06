@@ -1,0 +1,58 @@
+body{
+    background-color: #000;
+}
+
+.caja{
+    display: grid;
+    
+}
+
+.contenedor{
+    background-color: #38444D;
+    width: 700px;
+    height: 600px;
+    border-radius: 15px;
+    display: grid;
+    align-content: center;
+    place-self: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.editor{
+    background-color: #15202B;
+    width: 650px;
+    height: 550px;
+    border-radius: 8px;
+    display: grid;
+    justify-self: center;
+}
+
+.fork{
+    padding: 15px;
+}
+
+.key{
+    color: #7DA688;
+    display: inline;
+}
+
+.tag{
+    color: #E17159;
+    display: inline;
+}
+
+.attr{
+    color: #8253b0;
+    display: inline;
+}
+
+.value{
+    color: #38aae3;
+    display: inline;
+}
+
+.string{
+    color: #ececec;
+    display: inline;
+}
