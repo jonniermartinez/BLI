@@ -1,9 +1,7 @@
 let btnFormat = document.getElementById('btnFormat')
-
 let textArea =  document.getElementById('recolector');
 
 let stringHtml 
-
 let arrTags = [] ;
 
 let siguienteIndice = function(){
