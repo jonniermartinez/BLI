@@ -1,3 +1,4 @@
+let screenShower = document.getElementById('screenShower');
 let btnFormat = document.getElementById('btnFormat')
 let textArea =  document.getElementById('recolector');
 
@@ -9,6 +10,10 @@ let siguienteIndice = function(){
 }
 let nextIndex;
 
+btnFormat.addEventListener('click', respuesta)
+
+
+//...................................................
 function respuesta() {
     
 stringHtml =  textArea.value;
@@ -25,68 +30,10 @@ while(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
 }
     
 }
-
-// stringHtml =  textArea.value;
-// stringHtml.indexOf('<', 0)
-// // stringHtml = stringHtml.slice(stringHtml.indexOf('<', 0) , stringHtml.length - stringHtml.indexOf('<', 0))
-
-// arrTags.push(indexadorDeCaracteres(0 , "<" , ">"));
-// nextIndex = siguienteIndice();
-
-// while(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
-//     arrTags.push(indexadorDeCaracteres( nextIndex , "<" , ">" )  )    
-//     nextIndex = siguienteIndice();
-//     // console.log(nextIndex);
-// }
-
-// nextIndex = siguienteIndice();
-// if(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
-//     arrTags.push(indexadorDeCaracteres( nextIndex , "<" , ">" )  )
-// } ;
+//...................................................
 
 
-// nextIndex = siguienteIndice();
-// if(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
-//     arrTags.push(indexadorDeCaracteres( nextIndex , "<" , ">" )  )
-// } ;
-// nextIndex = siguienteIndice();
-// if(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
-//     arrTags.push(indexadorDeCaracteres( nextIndex , "<" , ">" )  )
-// } ;
-// nextIndex = siguienteIndice();
-// if(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
-//     arrTags.push(indexadorDeCaracteres( nextIndex , "<" , ">" )  )
-// } ;
-// nextIndex = siguienteIndice();
-// if(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
-//     arrTags.push(indexadorDeCaracteres( nextIndex , "<" , ">" )  )
-// } ;
-// nextIndex = siguienteIndice();
-// if(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
-//     arrTags.push(indexadorDeCaracteres( nextIndex , "<" , ">" )  )
-// } ;
-// nextIndex = siguienteIndice();
-// if(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
-//     arrTags.push(indexadorDeCaracteres( nextIndex , "<" , ">" )  )
-// } ;
-// nextIndex = siguienteIndice();
-// if(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
-//     arrTags.push(indexadorDeCaracteres( nextIndex , "<" , ">" )  )
-// } ;
-// nextIndex = siguienteIndice();
-// if(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
-//     arrTags.push(indexadorDeCaracteres( nextIndex , "<" , ">" )  )
-// } ;
-// nextIndex = siguienteIndice();
-// if(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
-//     arrTags.push(indexadorDeCaracteres( nextIndex , "<" , ">" )  )
-// } ;
-
-
-
-
- btnFormat.addEventListener('click', respuesta)
-
+//...................................................
  function indexadorDeCaracteres(indexIni , charIni , charFin){
      
      //devuelve un indice del charIni       <parametro2>
@@ -99,7 +46,7 @@ while(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
          return devolver; 
       }
  }
- 
+//...................................................
 
 
  
@@ -118,3 +65,15 @@ while(indexadorDeCaracteres( nextIndex , "<" , ">" ).inicio !== -1){
      }
      return palabra
  }
+
+
+//-----------------------
+// codigo que probamos y funciona 2:16 am 7 sept 2022
+// planeando el paso 3 ( referente a los  tags )
+let =`</input type="text" >`
+let count = 6
+const regex =  new RegExp('^[A-Z]+$', 'i')
+
+regex.test(et.charAt(count) )
+
+// -----------------------

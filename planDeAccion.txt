@@ -1,0 +1,95 @@
+usuario escribe su codigo html dentro de una etiqueta section asi:
+
+    
+    <section id="yoVivire" class="BLI">
+        <textarea class="BLI" name="" id="" cols="30" rows="10">
+     
+	       ACA PONES TU HTML QUE QUIERES FORMATEAR
+     
+	   </textarea>
+    </section>
+
+
+   <section id="yoVivire" class="BLI">
+         <div>
+		html reformateado
+	</div>
+    </section>
+
+	carpeta con {
+		pegar file .css
+		pegar file .js
+	}
+
+//------------------------------------------
+                <div>
+                    <input type="radio" id="propiedad7" name="drone" value="propiedad7">
+                    <label for="propiedad7">propiedad7</label>
+                </div>
+
+
+traer el valor del textarea
+guardar en variable
+encontrar ubicacion de parejas de picoparentesis
+	analizando que hacer con el contenido de picoparentesis:
+	-una sola palabra.
+	-o varias palabras.
+	
+	
+
+		
+                <div>
+                    <input type="radio" id="propiedad7" name="drone" value="propiedad7" required>
+                    <label for="propiedad7">propiedad7</label>
+                </div>
+
+dentro de picoparentesis.------------------------------------------
+tags:
+<tag
+o 
+</tag
+--------------
+atributos:
+si no es un tag 
+	atruto..........................  sin comillas
+	puede ser "="                      =
+
+	puede ser valor_de_atributo ....   entreComillas
+--------------
+
+[< / =  "]  el mismo color.    (sugerencia usar una funcion para agregar o quitar a estos elementos )   
+
+
+***************
+un color picoparentesis  y / mismo color
+tag..........................otro color
+atributo  y =    ............ 
+
+//**************************************************************************************
+paso 3 previsualizar funciones:
+
+dentro de picoparentesis.------------------------------------------
+tags:
+<tag
+o 
+</tag
+
+</input type="text" >
+
+--------------
+atributos:
+si no es un tag 
+	atruto..........................  sin comillas
+	puede ser "="                      =
+
+	puede ser valor_de_atributo ....   entreComillas
+--------------
+
+[< / =  "]  el mismo color.    (sugerencia usar una funcion para agregar o quitar a estos elementos )   
+
+
+***************
+un color picoparentesis  y / mismo color
+tag..........................otro color
+atributo  y =    ............ 
+

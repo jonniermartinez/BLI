@@ -5,9 +5,9 @@ let stringHtml = `<div>
 let arrTags = [] ;
 
 function indexadorDeCaracteres(indexIni , charIni , charFin){ 
-    //devuelve un indice del charIni       <parametro2>
-    // y el indice del       charFin       <parametro3>
-    // que esten mas cercanos al indexIni  <parametro1>
+    //devuelve un indice del        charIni       <parametro2>
+    // y el indice del              charFin       <parametro3>
+    // que esten mas cercanos al    indexIni      <parametro1>
     if(indexIni<stringHtml.length){
         var devolver =
          {inicio:stringHtml.indexOf(charIni , indexIni) , 
